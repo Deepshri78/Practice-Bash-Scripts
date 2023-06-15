@@ -6,4 +6,5 @@ hostname
 uname -a
 whoami
 pwd
-ls
+ls -ltr
+date
