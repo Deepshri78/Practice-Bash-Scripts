@@ -11,7 +11,7 @@ hostname
 echo 'System details are:'
 uname -a
 
-echo 'Logged in user is:'
+echo "Logged in user is:"
 whoami
 
 echo 'Present working directory is:'
