@@ -18,4 +18,4 @@ echo 'Present working directory is:'
 pwd
 
 echo 'Files in this folder are:'
-ls -ltrrr
+ls -ltr
