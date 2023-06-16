@@ -8,8 +8,6 @@ read -p "Enter second number: " b
 echo "Value of a is " $a
 echo "Value of b is " $b
 
-SWAP a b
-
 function SWAP ()
 {
     var1=$(($1+$2))
@@ -18,6 +16,7 @@ function SWAP ()
 
 }
 
+SWAP a b
 
 echo "Value of a is " $a
 echo "Value of b is " $b
