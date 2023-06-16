@@ -1,5 +1,5 @@
 var1=7
-#var2 = 'abc'
+var2='abc'
 var3=abc
 var4=true
 
