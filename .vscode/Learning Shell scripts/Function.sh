@@ -6,9 +6,9 @@ read -p "Enter second number: " b
 
 function SWAP ()
 {
-    c = $(($1+$2))
-    a = $(($c-$1))
-    b = $(($c-$2))
+    $var = $(($1+$2))
+    $1 = $(($var-$1))
+    $2 = $(($var-$2))
 
 }
 
