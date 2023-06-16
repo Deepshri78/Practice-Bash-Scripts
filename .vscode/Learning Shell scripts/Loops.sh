@@ -4,10 +4,11 @@ x=" "
 
 for color in blue white orange black; do 
         echo todays color is $color 
-        #x=$color" "$x
+        x=$x " " $color
 
 done    
 
+echo $x
 echo "Final color is " $color
 
 # while loop 
