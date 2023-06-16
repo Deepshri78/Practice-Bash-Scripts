@@ -9,3 +9,4 @@ then
     echo " a is less than 10"
 else
 echo " a is equal to 10"
+fi
