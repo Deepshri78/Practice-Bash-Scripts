@@ -11,11 +11,11 @@ SWAP ()
     b = $($c-$2)
 
 }
-read -p "Enter first number: " a
-read -p "Enter second number: " b
+
 echo "Value of a is " $a
 echo "Value of b is " $b
-SWAP ()
+
+SWAP a b
 
 echo "Value of a is " $a
 echo "Value of b is " $b
