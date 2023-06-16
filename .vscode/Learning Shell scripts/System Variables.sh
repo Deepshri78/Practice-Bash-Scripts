@@ -1,11 +1,11 @@
-echo $0 # Script name 
-echo $1 # Argumemnt 1
-echo $2 # Argumemnt 2
-echo $4 # Argumemnt 4
+echo "/e[32m Script name is : /e[0m]" $0 # Script name 
+echo "First argument is :" $1 # Argumemnt 1
+echo "Second argument is :" $2 # Argumemnt 2
+echo "Third argument is :" $4 # Argumemnt 4
 
-echo $* # All Arguments 
-echo $@ # All Arguments 
+echo "All arguments are :" $* # All Arguments 
+echo "All arguments are :" $@ # All Arguments 
 
-echo $# # How many arguments have been passed 
+echo "Number of arguments is :" $# # How many arguments have been passed 
 
-echo $? # value will be 0 if success and non-zero - if failed 
+echo "Was last command successful ?" $? # value will be 0 if success and non-zero - if failed 
