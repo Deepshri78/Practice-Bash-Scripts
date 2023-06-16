@@ -1,10 +1,10 @@
 declare -i a
 declare -i b
-declare -i c
+declare -i var1
 
 function SWAP ()
 {
-    $var1=$($1+$2)
+    var1=$($1+$2)
     a=$(($var1-$1))
     b=$(($var1-$2))
 
