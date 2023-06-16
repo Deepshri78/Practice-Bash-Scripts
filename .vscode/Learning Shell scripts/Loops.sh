@@ -8,7 +8,7 @@ for color in blue white orange black; do
 
 done    
 
-echo "Final color is " $x
+echo "Final color is " $color
 
 # while loop 
 a=10 
