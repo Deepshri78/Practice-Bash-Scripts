@@ -11,7 +11,7 @@ echo "Value of b is " $b
 function SWAP ()
 {
     var1=$(($1+$2))
-    a=$($var1-$1)
+    a=$(($var1-$1))
     b=$(($var1-$2))
 
 }
