@@ -1,6 +1,6 @@
 declare var1
 
-read -p "Enter you system type" var1
+read -p "Enter you system type " var1
 
 case $var1 in 
 linux)
