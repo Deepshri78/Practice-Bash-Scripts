@@ -4,7 +4,7 @@ declare -i c
 read -p "Enter first number: " a
 read -p "Enter second number: " b
 
-SWAP ()
+function SWAP ()
 {
     c = $(($1+$2))
     a = $(($c-$1))
