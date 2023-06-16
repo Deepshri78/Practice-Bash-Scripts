@@ -4,8 +4,8 @@ x=" "
 
 for color in blue white orange black; do 
         echo todays color is $color 
-        echo $x
         x=$x" "$color
+        echo $x
 
 done    
 
