@@ -4,7 +4,7 @@ declare -i c
 
 function SWAP ()
 {
-    $var=$(($1+$2))
+    $var=$($1+$2)
     a=$(($var-$1))
     b=$(($var-$2))
 
