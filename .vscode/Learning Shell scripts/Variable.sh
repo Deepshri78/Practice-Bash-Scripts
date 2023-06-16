@@ -7,3 +7,6 @@ echo "value of var1 =  $var1"
 echo "value of var2 =  $var2"
 echo "value of var3 =  $var3"
 echo "value of var4 =  $var4"
+
+var5=$(date)
+echo "Today's date is " $var5
