@@ -1,5 +1,7 @@
 declare -i a
-a=3
+
+read -p "Enter a number: " a
+#a=3
 
 if [ $a -gt 10 ]
 then
